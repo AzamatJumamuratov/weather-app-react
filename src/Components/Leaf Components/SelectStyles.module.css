@@ -1,0 +1,22 @@
+.select {
+  width: 150px;
+  appearance: none;
+  outline: none;
+  background-image: url("/public/caret-right.svg");
+  background-position: 95%;
+  background-size: 10px;
+  background-repeat: no-repeat;
+  box-shadow: 0 5px 10px -2px rgba(148, 255, 18, 0.16);
+  -webkit-box-shadow: 0 5px 10px -2px rgba(255, 5, 5, 0.16);
+  border: 2px solid gray;
+}
+
+option {
+  appearance: none;
+  outline: 0;
+  box-shadow: 0 5px 10px -2px rgba(148, 255, 18, 0.16);
+  -webkit-box-shadow: 0 5px 10px -2px rgba(255, 5, 5, 0.16);
+  border: 0;
+  border-radius: 0;
+  filter: none;
+}
