@@ -1,5 +1,5 @@
-import arrow_right from "/caret-right.svg";
-import arrow_down from "/caret-down.svg";
+import arrow_right from "/SVG/caret-right.svg";
+import arrow_down from "/SVG/caret-down.svg";
 import classes from "./SelectStyles.module.css";
 import { useRef, useState } from "react";
 
