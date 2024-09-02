@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import github_icon from "/github.svg";
+import github_icon from "/SVG/github.svg";
 
 export default function Creator() {
   return (

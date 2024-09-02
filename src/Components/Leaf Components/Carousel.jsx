@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import slide_right from "/slide-right.svg";
-import slide_left from "/slide-left.svg";
-import clock from "/Weather/clock.svg";
-import wind from "/wind.svg";
+import slide_right from "/SVG/slide-right.svg";
+import slide_left from "/SVG/slide-left.svg";
+import clock from "/SVG/Weather/clock.svg";
+import wind from "/SVG/wind.svg";
 
 // Import Swiper styles
 import "swiper/css";

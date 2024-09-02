@@ -1,10 +1,10 @@
 import Carousel from "../../Leaf Components/Carousel";
-import sun_icon from "/Weather/sun-icon.svg";
-import cloud_sun_icon from "/Weather/cloud-sun.svg";
-import cloud from "/Weather/cloud.svg";
-import cloud_rain from "/Weather/cloud-rain.svg";
-import rain_shower_heavy from "/Weather/cloud-showers-heavy.svg";
-import snow from "/Weather/snow.svg";
+import sun_icon from "/SVG/Weather/sun-icon.svg";
+import cloud_sun_icon from "/SVG/Weather/cloud-sun.svg";
+import cloud from "/SVG/Weather/cloud.svg";
+import cloud_rain from "/SVG/Weather/cloud-rain.svg";
+import rain_shower_heavy from "/SVG/Weather/cloud-showers-heavy.svg";
+import snow from "/SVG/Weather/snow.svg";
 
 export default function WeatherDisplay({ weatherData }) {
   let currentTime = new Date().getHours();

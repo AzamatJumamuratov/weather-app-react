@@ -3,7 +3,7 @@ import LocationBlock from "./LocationBlock/LocationBlock";
 export default function LocationResults({ results }) {
   return results == undefined ? null : results.length == 0 ? (
     <div className="flex justify-center items-center h-48 p-4">
-      <h2 className="text-lg">Not Found</h2>
+      <h2 className="text-lg">City Not Found</h2>
     </div>
   ) : (
     <div className="mx-12 max-[580px]:mx-0 overflow-x-auto">
